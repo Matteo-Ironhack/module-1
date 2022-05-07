@@ -1,0 +1,48 @@
+.brand-custom {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.overlay {
+	background-image: url("/starter-code/img/overlay.png");
+}
+
+.grayscale {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+.icon-rounded {
+	border-radius: 100%;
+	border: 5px solid white;
+	width: 70px;
+	height: 70px;
+	font-size: 20px;
+	line-height: 65px;
+	display: block;
+	margin: 0 auto;
+}
+
+.orange-color {
+	color: orange;
+}
+
+.lighter-bg {
+	background-color: #3B3B3B;
+}
+
+.darker-bg {
+	background-color: #292929;
+}
+
+.border-dotted {
+	border-bottom: 1px dotted white;
+}
+
+.no-decoration {
+	list-style: none;
+	margin: 0;
+	margin-block: 0;
+	margin-inline: 0;
+	padding-inline: 0;
+}
